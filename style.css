@@ -1,20 +1,29 @@
-
+.bck{
+	border:2px solid black;
+}
+.r1{
+	margin:auto;
+}
+.photo{
+	text-align:center;
+	margin-top:360px;
+}
+.summary{
+	text-align:center;
+	margin-top:360px;
+}
+#projBtn{
+	margin-left:672px;
+	margin-top:70px;
+}
 #mainPage{
-	background-color:darkcyan;
-
+	background: #acb6e5;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height:-webkit-fill-available;
+	width:-webkit-fill-available;
 }
-
-#pojList{
-	background-color:greenyellow;
-}
-
-#skillsBlock{
-	background-color:plum;
-}
-
-#contact{
-	background-color:orange;
-}
+s
 
 
 

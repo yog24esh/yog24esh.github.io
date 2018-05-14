@@ -8,62 +8,82 @@
 	<meta name="keywords" content="Website,UI,User Interface,UX,User Experience,HTML5,CSS3,New Delhi,Gurgaon,Intern,Thinking,Wireframing,Prototyping,cpp,Javascipt">
 	<meta name="Author" content="https://yog24esh.github.io/">
 	<!-- link for css and jq-->
+	<link rel="stylesheet" type="text/css" href="fontawesome.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap.css">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	    crossorigin="anonymous"></script>
 	<script src="bootstrap.js"></script>
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navabr-brand" href="#">Resume</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#tog" aria-controls="tog" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="tog">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Project</a>
-				</li>
-				<li>
-					<a class="nav-link" href="#">Skills</a>
-				</li>
-				<li>
-					<a class="nav-link" href="#">Contact Me</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
-
-
 	<div id="mainPage">
-		<div class="img">image circle</div>
-		<div class="summary">summary on the left</div>
-		<div id="projBtn">porj btn</div>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navabr-brand" href="#">Resume</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#tog" aria-controls="tog">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="tog">
+				<div class="navbar-nav">
+					<a class="nav-item nav-link active" href="#">Home</a>
+					<a class="nav-item nav-link" href="#">Projects</a>
+					<a class="nav-item nav-link" href="#">Contact Me</a>
+				</div>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="row r1">
+				<div class="col-lg-6 bck photo">
+					image circle
+				</div>
+				<div class="col-lg-6 bck summary">
+					summary
+				</div>
+			</div>
+		</div>
+		<div id="projBtn" class="btn">My Project</div>
+		<!-- <img src="https://images.unsplash.com/photo-1525286944502-268e726aece1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e5072792ce04efef19c40a9b54cd3503&auto=format&fit=crop&w=967&q=80">
+		 -->
+		<br>
 	</div>
 	<br>
-	<div id="pojList">
-		<div class="project">1 container</div>
-		<div class="project">2 container</div>
-		<div class="project">3 container</div>
-		<div class="project">4 container</div>
-		<div class="project">5 container</div>
-	</div>
-	<br>
-	<div id="skillsBlock">
-		<div class="s1">HTML</div>
-		<div class="s1">CSS</div>
-		<div class="s1">Javascript</div>
-		<div class="s1">C++</div>
-		<!-- <div class="s1">NodeJs</div> -->
-		<div class="s1">jQuery</div>
 
+	<div class="container">
+		<div class="row r2">
+			<div class="col-lg-2 offset-2 bck"><img src="..." class="rounded" alt="..."></div>
+			<div class="col-lg-4 bck">About Project</div>
+		</div>
+		<div class="row r3">
+			<div class="col-lg-2 offset-2 bck">Photo</div>
+			<div class="col-lg-4 bck">About Porject</div>
+		</div>
+		<div class="row r4">
+			<div class="col-lg-2 offset-2 bck">Photo</div>
+			<div class="col-lg-4 bck">About Porject</div>
+		</div>
 	</div>
+	
 	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-2 bck">HTML</div>
+			<div class="col-lg-2 bck">css</div>
+			<div class="col-lg-2 bck">Javascript</div>
+			<div class="col-lg-2 bck">jQuery</div>
+			<div class="col-lg-2 bck">C++</div>
+		</div>
+	</div>
+	
+	<br>
+
+	<div class="container">
+			<i class="fa fa-linkedin"></i>						
+	</div>
+
+
+	<i class="fa fa-linkedin" aria-hidden="true"></i>
 	<div id="contact">
 		<div class="c1">LinkedIn</div>
 		<div class="c1">Github</div>
@@ -72,6 +92,7 @@
 		<div class="c1">GoogleMail</div>
 	</div>
 
+	
 	<h2>Sorry This page is under constuction </h2>
 
 	<ol>
@@ -111,9 +132,9 @@
 		<li>Twitch.tv
 			<a href=""> Link</a>
 		</li>
-	</ol>
+	</ol> 
 
-	
+
 
 </body>
 
