@@ -1,4 +1,20 @@
-li{
-	font-size:20px;
-	line-height: 30px;
+
+#mainPage{
+	background-color:darkcyan;
+
 }
+
+#pojList{
+	background-color:greenyellow;
+}
+
+#skillsBlock{
+	background-color:plum;
+}
+
+#contact{
+	background-color:orange;
+}
+
+
+
