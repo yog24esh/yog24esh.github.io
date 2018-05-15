@@ -1,29 +1,36 @@
-.bck{
-	border:2px solid black;
-}
-.r1{
-	margin:auto;
-}
-.photo{
+
+.row{
 	text-align:center;
-	margin-top:360px;
-}
-.summary{
+	margin-top:40px;
+  }
+  #name1{
+	text-align: center;
+  }
+  .footer0{
 	text-align:center;
-	margin-top:360px;
-}
-#projBtn{
-	margin-left:672px;
-	margin-top:70px;
-}
-#mainPage{
+  }
+  div.footer2,div.footer3,div.footer4{
+	display : inline;
+	padding:20px;
+	padding-top:10px;
+  }
+  .footer1{
+	display:inline;
+	padding-right:20px;
+  }
+  .footer0{
+	margin:-28px ;
+  }
+  .footer11{
+	margin:10px;
+  }
+  body{
 	background: #acb6e5;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	height:-webkit-fill-available;
-	width:-webkit-fill-available;
-}
-s
-
-
-
+	 background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
+	 background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	 height:-webkit-fill-available; 
+	 width:-webkit-fill-available; 
+ } 
+  
+  
+ 
